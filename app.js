@@ -10,7 +10,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(cors({ origin: '*' }));
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/', require('./pages/index/index'));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
