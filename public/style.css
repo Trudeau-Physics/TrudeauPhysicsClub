@@ -520,24 +520,8 @@ video {
   display: flex;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .h-screen {
   height: 100vh;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .w-screen {
