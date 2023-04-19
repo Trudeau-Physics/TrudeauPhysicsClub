@@ -7,10 +7,13 @@
     "run": "nodemon ./bin/www",
     "buildreact": "npx babel ./src/components --out-dir ./public/components --watch",
     "buildcss": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
-    "build": "webpack",
+    "predeploy": "webpack --mode=development", 
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://bryanyeeee.github.io/TrudeauPhysicsClub/",
+  "repository": {
+    "url": "git+https://github.com/BryanYeeee/TrudeauPhysicsClub.git"
+  },
+  "homepage": "https://BryanYeeee.github.io/TrudeauPhysicsClub/",
   "dependencies": {
     "@babel/core": "^7.21.4",
     "cookie-parser": "~1.4.4",
