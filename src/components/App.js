@@ -10,32 +10,36 @@ function App() {
                 <Route path="/" component={() => <Home />} />
 
             </ReactRouterDOM.HashRouter>
-            <div>ASDASDSDA</div>
-            <div class="min-h-screen flex justify-center items-center">
-                <div class='light x1'></div>
-                <div class='light x2'></div>
-                <div class='light x3'></div>
-                <div class='light x4'></div>
-                <div class='light x5'></div>
-                <div class='light x6'></div>
-                <div class='light x7'></div>
-                <div class='light x8'></div>
-                <div class='light x9'></div>
-
-                <div class="wave"></div>
-                <div class="wave"></div>
-                <div class="wave"></div>
-
-                <hero class="font-black text-7x1">F</hero>
+            <div className="min-h-screen flex justify-center items-center">
+                <div className='light x1'></div>
+                <div className='light x2'></div>
+                <div className='light x3'></div>
+                <div className='light x4'></div>
+                <div className='light x5'></div>
+                <div className='light x6'></div>
+                <div className='light x7'></div>
+                <div className='light x8'></div>
+                <div className='light x9'></div>
 
             </div>
 
-            <div class="p-10">
-                <h2 class="font-bold text-4xl">THINGS</h2>
-            </div>
         </>
     )
 }
+
+var locked = false;
+var container = document.getElementById('app');
+var animated = document.querySelectorAll('light');
+
+window.addEventListener('scroll', function() {
+
+    for(let i = 0; i<9;i++){
+        console.log("A")
+        animated[i].style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+    }
+      
+
+});
 
 const root = ReactDOM.createRoot(document.querySelector('#app'));
 root.render(<App />);

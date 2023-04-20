@@ -1,7 +1,7 @@
 
 export function Hero() {
     return (
-        <div className='w-screen h-screen flex justify-center items-center'>
+        <div className='font-black text-9xl z-[1] w-screen h-screen flex justify-center items-center'>
             Trudeau Physics!
         </div>
     );

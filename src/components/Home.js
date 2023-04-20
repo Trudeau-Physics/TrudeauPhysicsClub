@@ -3,11 +3,9 @@ import {Hero} from './Hero.js';
 export function Home() {
     return (
         <div>
+        <Hero />
 
-                <div class="wave"></div>
-                <div class="wave"></div>
-                <div class="wave"></div>
-
+            <Hero />
         </div>
     );
 }
