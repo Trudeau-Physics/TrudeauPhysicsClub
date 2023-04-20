@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-html { 
-    background: url(./images/bg.png) no-repeat center center fixed; 
+@font-face {
+    font-family: MoonFont;
+
+    src: url(./assets/Moon2.0-Light.otf);
+}
+
+* {
+    font-family: MoonFont;
+}
+
+html {
+    background: url(./assets/bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}

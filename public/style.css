@@ -516,42 +516,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .z-\[1\] {
   z-index: 1;
 }
@@ -562,10 +526,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.min-h-screen {
-  min-height: 100vh;
 }
 
 .w-screen {
@@ -580,13 +540,9 @@ video {
   justify-content: center;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .text-9xl {
@@ -598,11 +554,22 @@ video {
   font-weight: 900;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-slate-100 {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: MoonFont;
+
+  src: url(./assets/Moon2.0-Light.otf);
+}
+
+* {
+  font-family: MoonFont;
 }
 
 html {
-  background: url(./images/bg.png) no-repeat center center fixed;
+  background: url(./assets/bg.png) no-repeat center center fixed;
   background-size: cover;
 }
