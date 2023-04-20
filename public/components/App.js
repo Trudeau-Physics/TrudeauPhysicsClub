@@ -26,14 +26,6 @@ function App() {
     className: "light x9"
   })));
 }
-var locked = false;
-var container = document.getElementById('app');
-var animated = document.querySelectorAll('light');
-window.addEventListener('scroll', function () {
-  for (let i = 0; i < 9; i++) {
-    console.log("A");
-    animated[i].style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-  }
-});
 const root = ReactDOM.createRoot(document.querySelector('#app'));
+console.log(root);
 root.render( /*#__PURE__*/React.createElement(App, null));
