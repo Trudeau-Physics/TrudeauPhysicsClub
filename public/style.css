@@ -524,6 +524,10 @@ video {
   height: 100vh;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -534,6 +538,23 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 html {
