@@ -3,7 +3,7 @@ import { Contact } from './Contact.js';
 
 export function Home() {
     return (
-        <div>
+        <div className="snap-mandatory snap-y">
             <Hero />
             <Contact />
         </div>

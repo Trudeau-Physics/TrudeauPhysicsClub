@@ -5,11 +5,15 @@
 @font-face {
     font-family: MoonFont;
 
-    src: url(./assets/Moon2.0-Light.otf);
+    src: url(./assets/aquire.otf);
 }
 
 * {
     font-family: MoonFont;
+}
+
+body{
+    scroll-snap-type: y mandatory;
 }
 
 html {
@@ -18,4 +22,6 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    scroll-snap-type: y mandatory;
 }

@@ -42,6 +42,15 @@ button:hover{
   transition: .3s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 
 .light {
     z-index: 0;
