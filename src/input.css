@@ -11,9 +11,13 @@
 * {
     font-family: MoonFont;
 }
-
+body::-webkit-scrollbar {
+    display: none;
+}
 body{
     scroll-snap-type: y mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 html {

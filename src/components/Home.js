@@ -13,8 +13,9 @@ export function Home() {
         <div className="snap-mandatory snap-y">
             <NavBar hero={homeRef} contact={contactRef} about={aboutRef}/>
             <Hero ref={homeRef} />
-            <Contact ref={contactRef}/>
             <About ref={aboutRef}/>
+            <Contact ref={contactRef}/>
+            
         </div>
     );
 }

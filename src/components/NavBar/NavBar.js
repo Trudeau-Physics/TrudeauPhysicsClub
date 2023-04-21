@@ -5,9 +5,10 @@ export function NavBar(props) {
     
    
 
-    const handleClick = (ref) => {
-        console.log(props)
-        ref.current.scrollIntoView({behavior: 'smooth'});
+    const handleClick = (id) => {
+        console.log(id)
+        let page = document.querySelector(id)
+        page.scrollIntoView({behavior: 'smooth'});
     };
 
     return (
@@ -19,14 +20,14 @@ export function NavBar(props) {
             </div>
             <ul className="lg:flex justify-around mt-5 items-center lg:mt-0 lg:w-2/3 bg-clip-text bg-gradient-to-r">
 
-                <li className="flex items-center my-2 px-2 py-2 xl:px-8 lg:py-0 text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-500 h-full">
-                    <div onClick={()=>handleClick(props.hero)} > HOME</div>
+                <li onClick={()=>handleClick("#home")} className="flex items-center my-2 px-2 py-2 xl:px-8 lg:py-0 text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-500 h-full">
+                    <div> HOME</div>
                 </li>
-                <li className="flex items-center my-2 px-2 py-2 xl:px-8 lg:py-0 text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-500 h-full">
-                    <div onClick={()=>handleClick(props.about)} > ABOUT</div>
+                <li onClick={()=>handleClick("#about")} className="flex items-center my-2 px-2 py-2 xl:px-8 lg:py-0 text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-500 h-full">
+                    <div> ABOUT</div>
                 </li>
-                <li className="flex items-center my-2 px-2 py-2 xl:px-8 lg:py-0 text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-500 h-full">
-                    <div onClick={()=>handleClick(props.contact)} > CONTACT</div>
+                <li onClick={()=>handleClick("#contact")} className="flex items-center my-2 px-2 py-2 xl:px-8 lg:py-0 text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-500 h-full">
+                    <div> CONTACT</div>
                 </li>
                     
 

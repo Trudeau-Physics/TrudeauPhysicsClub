@@ -14,9 +14,9 @@ export function Home() {
     about: aboutRef
   }), /*#__PURE__*/React.createElement(Hero, {
     ref: homeRef
-  }), /*#__PURE__*/React.createElement(Contact, {
-    ref: contactRef
   }), /*#__PURE__*/React.createElement(About, {
     ref: aboutRef
+  }), /*#__PURE__*/React.createElement(Contact, {
+    ref: contactRef
   }));
 }
