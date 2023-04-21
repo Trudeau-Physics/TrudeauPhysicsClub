@@ -2,7 +2,6 @@ import { Home } from './Home.js';
 
 function App() {
     const Route = ReactRouterDOM.Route;
-
     return (
         <>
             <ReactRouterDOM.HashRouter>
