@@ -2,21 +2,11 @@ import { Hero } from './Hero.js';
 import { Contact } from './Contact.js';
 import { About } from './About.js';
 import { NavBar } from './NavBar/NavBar.js';
-export function Home() {
-  const contactRef = React.useRef(null);
-  const aboutRef = React.useRef(null);
-  const homeRef = React.useRef(null);
+function Home() {
   return /*#__PURE__*/React.createElement("div", {
     className: "snap-mandatory snap-y"
-  }, /*#__PURE__*/React.createElement(NavBar, {
-    hero: homeRef,
-    contact: contactRef,
-    about: aboutRef
-  }), /*#__PURE__*/React.createElement(Hero, {
-    ref: homeRef
-  }), /*#__PURE__*/React.createElement(About, {
-    ref: aboutRef
-  }), /*#__PURE__*/React.createElement(Contact, {
-    ref: contactRef
-  }));
+  }, /*#__PURE__*/React.createElement(NavBar, null), /*#__PURE__*/React.createElement(Hero, null), /*#__PURE__*/React.createElement(About, null), /*#__PURE__*/React.createElement(Contact, null));
 }
+const root = ReactDOM.createRoot(document.querySelector('#home'));
+console.log(root);
+root.render( /*#__PURE__*/React.createElement(Home, null));
