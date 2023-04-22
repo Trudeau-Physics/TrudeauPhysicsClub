@@ -10,6 +10,8 @@
 
 * {
     font-family: MoonFont;
+        /* border: 1px solid black;
+        box-sizing: border-box; */
 }
 body::-webkit-scrollbar {
     display: none;
