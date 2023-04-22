@@ -1,10 +1,11 @@
-import { Home } from './Home.js';
+import { Hero } from './Hero.js';
+import { Contact } from './Contact.js';
+import { About } from './About.js';
+import { NavBar } from './NavBar.js';
 function App() {
-  const Route = ReactRouterDOM.Route;
-  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(ReactRouterDOM.HashRouter, null, /*#__PURE__*/React.createElement(Route, {
-    path: "/",
-    component: () => /*#__PURE__*/React.createElement(Home, null)
-  })));
+  return /*#__PURE__*/React.createElement("div", {
+    className: "snap-mandatory snap-y"
+  }, /*#__PURE__*/React.createElement(NavBar, null), /*#__PURE__*/React.createElement(Hero, null), /*#__PURE__*/React.createElement(About, null), /*#__PURE__*/React.createElement(Contact, null));
 }
 const root = ReactDOM.createRoot(document.querySelector('#app'));
 console.log(root);
