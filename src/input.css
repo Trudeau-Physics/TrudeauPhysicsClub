@@ -3,13 +3,16 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: MoonFont;
-
+    font-family: AquireFont;
     src: url(./assets/aquire.otf);
+}
+@font-face {
+    font-family: NormalFont;
+    src: url(./assets/Moon2.0-Bold.otf);
 }
 
 * {
-    font-family: MoonFont;
+    font-family: NormalFont;
         /* border: 1px solid black;
         box-sizing: border-box; */
 }
@@ -21,7 +24,18 @@ body{
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+.titlefont{
+    font-family: AquireFont;
+}
+::-moz-selection {
+    background-color: transparent;
+    color: #000;
+}
 
+::selection {
+    background-color: transparent;
+    color: #000;
+}
 html {
     /* background: url(./assets/blurry.png) no-repeat center center fixed; */
     -webkit-background-size: cover;
