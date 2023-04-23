@@ -23,7 +23,7 @@ body{
     scroll-snap-type: y mandatory;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    
+
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -45,7 +45,7 @@ body{
     color: #000;
 }
 html {
-    /* background: url(./assets/blurry.png) no-repeat center center fixed; */
+    background: url(./assets/blue.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
