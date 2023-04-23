@@ -41,7 +41,9 @@ module.exports = {
         purple: colors.purple,
         fuchsia: colors.fuchsia,
         pink: colors.pink,
-        rose: colors.rose
+        rose: colors.rose,
+        
+        maincolor: 'rgb(15,23,45)'
       }),
       columns: {
         auto: 'auto',

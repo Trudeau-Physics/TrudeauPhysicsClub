@@ -687,6 +687,11 @@ video {
   background-color: rgb(21 94 117 / var(--tw-bg-opacity));
 }
 
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -854,7 +859,8 @@ body{
 }
 
 html {
-  background: url(./assets/blue.png) no-repeat center center fixed;
+  background-color: #000;
+  background: url(./assets/bitmap.svg) no-repeat center center fixed;
   background-size: cover;
   scroll-snap-type: y mandatory;
 }
