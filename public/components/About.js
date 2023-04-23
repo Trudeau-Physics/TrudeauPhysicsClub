@@ -1,7 +1,7 @@
 export function About() {
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
     id: "about",
-    className: "snap-center w-screen h-screen flex flex-col justify-center items-center bg-cyan-800",
+    className: "snap-center w-screen h-screen flex flex-col justify-center items-center bg-maincolor-800",
     style: {
       padding: '10vh'
     }

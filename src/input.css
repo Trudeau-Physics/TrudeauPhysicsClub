@@ -45,12 +45,13 @@ body{
     color: #000;
 }
 html {
-    background-color: #000;
-    background: url(./assets/bitmap.svg) no-repeat center center fixed;
+    background-color: #121212;
+    color:aliceblue;
+    /* background: url(./assets/bitmap.svg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 
     scroll-snap-type: y mandatory;
 }
