@@ -3,11 +3,13 @@ import { Contact } from './Contact.js';
 import { About } from './About.js';
 import { NavBar } from './NavBar.js';
 
+
+
 function App() {
 
 
     return (
-        <div className="snap-mandatory snap-y">
+        <div className="-scroll-ml-6  scroll-smooth snap-mandatory snap-y">
             <NavBar />
             <Hero />
             <About />
