@@ -633,8 +633,13 @@ video {
   --tw-scroll-snap-strictness: mandatory;
 }
 
+<<<<<<< HEAD
 .-scroll-ml-6 {
   scroll-margin-left: -1.5rem;
+=======
+.snap-center {
+  scroll-snap-align: center;
+>>>>>>> e04f8b815c93952c8033a7d34fa59601b537fcbf
 }
 
 .grid-cols-1 {
@@ -806,9 +811,15 @@ video {
   line-height: 1.75rem;
 }
 
+<<<<<<< HEAD
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+=======
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+>>>>>>> e04f8b815c93952c8033a7d34fa59601b537fcbf
 }
 
 .font-bold {
@@ -890,13 +901,13 @@ video {
 @font-face {
   font-family: AquireFont;
 
-  src: url(./assets/aquire.otf);
+  src: url(./assets/fonts/fasthand.ttf);
 }
 
 @font-face {
   font-family: NormalFont;
 
-  src: url(./assets/Moon2.0-Bold.otf);
+  src: url(./assets/fonts/cake.otf);
 }
 
 * {
@@ -1127,6 +1138,11 @@ html {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:hover\:h-36:hover {
