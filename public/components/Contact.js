@@ -1,7 +1,7 @@
 export function Contact() {
   return /*#__PURE__*/React.createElement("div", {
     id: "contact",
-    className: "titlefont text-blueacc snap-center w-screen h-screen flex flex-col justify-around items-center bg-maincolor ",
+    className: "titlefont text-blueacc snap-center w-screen min-h-[500px] flex-col justify-around items-center bg-maincolor ",
     style: {
       padding: '10vh'
     }
@@ -40,7 +40,7 @@ export function Contact() {
 }
 function InfoBox(props) {
   return /*#__PURE__*/React.createElement("div", {
-    className: "shadow-2xl transition ease-in-out p-4 flex lg:flex-col justify-between h-full w-full border-2 border-green-50 rounded-2xl box-border transform hover:-translate-y-1 hover:scale-105 hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-200"
+    className: "shadow-2xl transition ease-in-out p-4 flex lg:flex-col justify-between min-h-auto min-w-auto h-full w-full border-2 border-green-50 rounded-2xl box-border transform hover:-translate-y-1 hover:scale-105 hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-200"
   }, /*#__PURE__*/React.createElement("div", {
     className: "flex flex-col lg:items-center lg:justify-around flex-grow"
   }, /*#__PURE__*/React.createElement("div", {
