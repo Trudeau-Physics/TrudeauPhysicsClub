@@ -21,6 +21,9 @@ function InfoBox(props) {
                 <div className="text-xl lg:text-3xl lg:text-center">{props.title}</div>
                 <div className="text-base lg:text-xl underline">{props.children}</div>
             </div>
+            <div className="flex justify-center flex-col lg:flex-row lg:w-full">
+                <img src={props.iconUrl} alt="Icon" className="w-16 h-16 hover:h-20 hover:w-20 lg:w-24 lg:h-24 lg:hover:h-36 lg:hover:w-36 duration-100" />
+            </div>
             {/* <image src="something"/> */}
         </div>
     );
