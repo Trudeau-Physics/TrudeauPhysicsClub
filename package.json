@@ -10,9 +10,9 @@
     "deploy": "gh-pages -d public"
   },
   "repository": {
-    "url": "git+https://github.com/BryanYeeee/TrudeauPhysicsClub.git"
+    "url": "git+https://github.com/Trudeau-Physics/TrudeauPhysicsClub.git"
   },
-  "homepage": "https://BryanYeeee.github.io/TrudeauPhysicsClub/",
+  "homepage": "https://trudeau-physics.github.io/TrudeauPhysicsClub/",
   "dependencies": {
     "@babel/core": "^7.21.4",
     "cookie-parser": "~1.4.4",

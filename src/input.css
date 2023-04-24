@@ -44,8 +44,15 @@ body{
     background-color: transparent;
     color: #000;
 }
+#home{
+    background: url(./assets/bitmap.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 html {
-    background-color: #121212;
+    background-color: #052225;
     color:aliceblue;
     /* background: url(./assets/bitmap.svg) no-repeat center center fixed;
     -webkit-background-size: cover;
