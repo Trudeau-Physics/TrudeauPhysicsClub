@@ -73,7 +73,7 @@ body {
 }
 
 #home {
-    background: url(./assets/bitmap.svg) no-repeat center center fixed;
+    /* background: url(./assets/bitmap.svg) no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -81,8 +81,7 @@ body {
 }
 
 html {
-    background-color: #052225;
-    color: #f0f8ff;
+    /* color: #f0f8ff; */
     /* background: url(./assets/bitmap.svg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

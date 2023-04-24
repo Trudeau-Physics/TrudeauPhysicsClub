@@ -15,16 +15,16 @@ export function NavBar(props) {
                     {/* <img className='rounded-3xl' src={'../../assets/logo.png'} /> */}LOGO
                 </a>
             </div>
-            <ul className="flex justify-around items-center mt-0 w-2/3 bg-clip-text bg-gradient-to-r">
+            <ul className="text-brightblueacc flex justify-around items-center mt-0 w-2/3 bg-clip-text bg-gradient-to-r">
 
                 <li onClick={()=>handleClick("#home")} className="flex items-center my-2 px-2 md:px-8 py-0 text-base sm:text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-700 h-full">
-                    <div> HOME</div>
+                    <div className='titlefont'> HOME</div>
                 </li>
                 <li onClick={()=>handleClick("#about")} className="flex items-center my-2 px-2 md:px-8 py-0 text-base sm:text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-700 h-full">
-                    <div> ABOUT</div>
+                    <div className='titlefont'> ABOUT</div>
                 </li>
                 <li onClick={()=>handleClick("#contact")} className="flex items-center my-2 px-2 md:px-8 py-0 text-base sm:text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-700 h-full">
-                    <div> CONTACT</div>
+                    <div className='titlefont'> CONTACT</div>
                 </li>
                     
 
