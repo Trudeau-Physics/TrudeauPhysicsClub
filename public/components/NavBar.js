@@ -17,17 +17,23 @@ export function NavBar(props) {
     className: "",
     href: "/"
   }, "LOGO")), /*#__PURE__*/React.createElement("ul", {
-    className: "flex justify-around items-center mt-0 w-2/3 bg-clip-text bg-gradient-to-r"
+    className: "text-brightblueacc flex justify-around items-center mt-0 w-2/3 bg-clip-text bg-gradient-to-r"
   }, /*#__PURE__*/React.createElement("li", {
     onClick: () => handleClick("#home"),
     className: "flex items-center my-2 px-2 md:px-8 py-0 text-base sm:text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-700 h-full"
-  }, /*#__PURE__*/React.createElement("div", null, " HOME")), /*#__PURE__*/React.createElement("li", {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "titlefont"
+  }, " HOME")), /*#__PURE__*/React.createElement("li", {
     onClick: () => handleClick("#about"),
     className: "flex items-center my-2 px-2 md:px-8 py-0 text-base sm:text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-700 h-full"
-  }, /*#__PURE__*/React.createElement("div", null, " ABOUT")), /*#__PURE__*/React.createElement("li", {
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "titlefont"
+  }, " ABOUT")), /*#__PURE__*/React.createElement("li", {
     onClick: () => handleClick("#contact"),
     className: "flex items-center my-2 px-2 md:px-8 py-0 text-base sm:text-xl rounded hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-700 h-full"
-  }, /*#__PURE__*/React.createElement("div", null, " CONTACT"))));
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "titlefont"
+  }, " CONTACT"))));
 }
 // const root = ReactDOM.createRoot(document.querySelector('#navbar'));
 // root.render(<Navbar />);

@@ -1,12 +1,12 @@
 export function Contact() {
   return /*#__PURE__*/React.createElement("div", {
     id: "contact",
-    className: "snap-center w-screen h-screen min-h-[500px] flex flex-col items-center bg-cyan-800 overflow-visible",
+    className: "titlefont text-blueacc snap-center w-screen min-h-[500px] flex-col justify-around items-center bg-maincolor ",
     style: {
       padding: '10vh'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    className: "font-extrabold text-center text-3xl sm:text-5xl lg:text-8xl duration-700"
+    className: "titlefont text-orangeacc font-extrabold text-center text-3xl sm:text-5xl lg:text-8xl duration-700"
   }, "Contact"), /*#__PURE__*/React.createElement("div", {
     className: "grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 justify-center items-center w-full h-4/5 lg:h-3/5 p-4 gap-2 lg-p-8 lg:gap-8 "
   }, /*#__PURE__*/React.createElement(InfoBox, {
