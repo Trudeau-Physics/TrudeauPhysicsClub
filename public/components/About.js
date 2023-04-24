@@ -8,10 +8,10 @@ export function About() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "font-black text-3xl sm:text-5xl lg:text-8xl flex justify-center items-center w-full h-1/6 lg:h-1/3 duration-700"
   }, "ABOUT US"), /*#__PURE__*/React.createElement("div", {
-    className: "grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-2 justify-center items-center w-full h-5/6 lg:h-2/3 p-4 gap-2 lg-p-8 lg:gap-8 "
+    className: "grid grid-cols-1 grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 justify-center items-center w-full h-5/6 lg:h-2/3 p-4 gap-2 lg-p-8 lg:gap-8 "
   }, /*#__PURE__*/React.createElement(InfoBox, {
     title: "About Us"
-  }, "This club\u2019s ultimate goal is to create a welcoming and safe space in Trudeau, in this planet, where everyone can feel free to share and talk about their ideas and observations about the world. We believe that physics is not only about the mathematical calculations, but also about the nature and philosophy of this world. We are also here to lift each other up, and help each other through difficult times. No one is bad at physics!"), /*#__PURE__*/React.createElement(InfoBox, {
+  }, "We believe that physics is not only about the mathematical calculations, but also about the nature and philosophy of this world. This club\u2019s ultimate goal is to create a welcoming and safe space in Trudeau, in this planet, where everyone can feel free to share and talk about their ideas and observations about the world. We are also here to lift each other up, and help each other through difficult times. No one is bad at physics!"), /*#__PURE__*/React.createElement(InfoBox, {
     title: "What we do"
   }, "1. Hire execs 2. Kick all members 3. Bully Martin"))));
 }
@@ -23,7 +23,7 @@ function InfoBox(props) {
   }, /*#__PURE__*/React.createElement("div", {
     className: "text-xl lg:text-3xl lg:text-center"
   }, props.title), /*#__PURE__*/React.createElement("div", {
-    className: "text-base lg:text-xl"
+    className: "text-base lg:text-xl whitespace-none overflow-y-auto"
   }, props.children)), /*#__PURE__*/React.createElement("div", {
     className: "flex justify-center flex-col lg:flex-row lg:w-full"
   }, /*#__PURE__*/React.createElement("img", {
