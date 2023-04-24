@@ -625,10 +625,6 @@ video {
   scroll-snap-align: center;
 }
 
-.-scroll-ml-6 {
-  scroll-margin-left: -1.5rem;
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -789,6 +785,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -800,6 +801,11 @@ video {
 .text-blueacc {
   --tw-text-opacity: 1;
   color: rgb(28 96 128 / var(--tw-text-opacity));
+}
+
+.text-brightblueacc {
+  --tw-text-opacity: 1;
+  color: rgb(204 255 255 / var(--tw-text-opacity));
 }
 
 .text-orange-500 {
@@ -814,11 +820,6 @@ video {
 
 .text-transparent {
   color: transparent;
-}
-
-.text-brightblueacc {
-  --tw-text-opacity: 1;
-  color: rgb(204 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -868,13 +869,13 @@ video {
 @font-face {
   font-family: AquireFont;
 
-  src: url(./assets/aquire.otf);
+  src: url(./assets/fonts/fasthand.ttf);
 }
 
 @font-face {
   font-family: NormalFont;
 
-  src: url(./assets/Moon2.0-Bold.otf);
+  src: url(./assets/fonts/cake.otf);
 }
 
 * {
@@ -1094,6 +1095,11 @@ html {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:hover\:h-36:hover {

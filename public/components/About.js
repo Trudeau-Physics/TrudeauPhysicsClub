@@ -21,7 +21,7 @@ function InfoBox(props) {
   }, /*#__PURE__*/React.createElement("div", {
     className: "flex flex-col lg:items-center lg:justify-around flex-grow"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "text-xl lg:text-3xl lg:text-center"
+    className: "text-4xl lg:text-4xl lg:text-center"
   }, props.title), /*#__PURE__*/React.createElement("div", {
     className: "text-base lg:text-xl whitespace-none overflow-y-auto"
   }, props.children)), /*#__PURE__*/React.createElement("div", {

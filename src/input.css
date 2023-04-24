@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: AquireFont;
-    src: url(./assets/aquire.otf);
+    src: url(./assets/fonts/fasthand.ttf);
 }
 
 @font-face {
     font-family: NormalFont;
-    src: url(./assets/Moon2.0-Bold.otf);
+    src: url(./assets/fonts/cake.otf);
 }
 
 

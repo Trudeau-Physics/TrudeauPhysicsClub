@@ -9,7 +9,7 @@ function App() {
 
 
     return (
-        <div className="-scroll-ml-6  scroll-smooth snap-mandatory snap-y">
+        <div className="scroll-smooth snap-mandatory snap-y">
             <NavBar />
             <Hero />
             <About />
