@@ -581,34 +581,16 @@ video {
   height: 100vh;
 }
 
-.h-auto {
-  height: auto;
-}
-
-.min-h-min {
-  min-height: -moz-min-content;
-  min-height: min-content;
-}
-
-.min-h-max {
-  min-height: -moz-max-content;
-  min-height: max-content;
-}
-
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.min-h-\[60rem\] {
-  min-height: 60rem;
-}
-
-.min-h-\[600rem\] {
-  min-height: 600rem;
+.h-2\/3 {
+  height: 66.666667%;
 }
 
 .min-h-\[500px\] {
   min-height: 500px;
+}
+
+.min-h-\[800px\] {
+  min-height: 800px;
 }
 
 .w-1\/2 {
@@ -635,20 +617,6 @@ video {
   width: 100vw;
 }
 
-.w-auto {
-  width: auto;
-}
-
-.min-w-max {
-  min-width: -moz-max-content;
-  min-width: max-content;
-}
-
-.min-w-min {
-  min-width: -moz-min-content;
-  min-width: min-content;
-}
-
 .flex-grow {
   flex-grow: 1;
 }
@@ -663,10 +631,6 @@ video {
 
 .snap-mandatory {
   --tw-scroll-snap-strictness: mandatory;
-}
-
-.snap-center {
-  scroll-snap-align: center;
 }
 
 .-scroll-ml-6 {
@@ -709,8 +673,8 @@ video {
   gap: 0.5rem;
 }
 
-.overflow-visible {
-  overflow: visible;
+.gap-8 {
+  gap: 2rem;
 }
 
 .overflow-y-auto {
@@ -755,6 +719,11 @@ video {
   background-color: rgb(26 10 44 / var(--tw-bg-opacity));
 }
 
+.bg-red-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -781,6 +750,14 @@ video {
   padding: 1rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
+.p-16 {
+  padding: 4rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -794,14 +771,6 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
 }
 
 .pt-6 {
@@ -837,6 +806,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -848,6 +822,11 @@ video {
 .text-blueacc {
   --tw-text-opacity: 1;
   color: rgb(28 96 128 / var(--tw-text-opacity));
+}
+
+.text-brightblueacc {
+  --tw-text-opacity: 1;
+  color: rgb(204 255 255 / var(--tw-text-opacity));
 }
 
 .text-orange-500 {
@@ -862,11 +841,6 @@ video {
 
 .text-transparent {
   color: transparent;
-}
-
-.text-brightblueacc {
-  --tw-text-opacity: 1;
-  color: rgb(204 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -994,7 +968,6 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; */
-  scroll-snap-type: y mandatory;
 }
 
 .hover\:h-20:hover {
@@ -1123,6 +1096,18 @@ html {
 
   .lg\:gap-8 {
     gap: 2rem;
+  }
+
+  .lg\:p-16 {
+    padding: 4rem;
+  }
+
+  .lg\:p-64 {
+    padding: 16rem;
+  }
+
+  .lg\:p-24 {
+    padding: 6rem;
   }
 
   .lg\:text-center {

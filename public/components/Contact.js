@@ -1,14 +1,14 @@
 export function Contact() {
   return /*#__PURE__*/React.createElement("div", {
     id: "contact",
-    className: "titlefont text-blueacc snap-center w-screen min-h-[500px] flex-col justify-around items-center bg-maincolor ",
+    className: "titlefont text-blueacc w-screen h-screen min-h-[800px] flex-col justify-around items-center bg-red-100 ",
     style: {
-      padding: '10vh'
+      paddingTop: '10vh'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    className: "titlefont text-orangeacc font-extrabold text-center text-3xl sm:text-5xl lg:text-8xl duration-700"
+    className: "titlefont text-orangeacc font-extrabold text-center text-5xl lg:text-8xl duration-700"
   }, "Contact"), /*#__PURE__*/React.createElement("div", {
-    className: "grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 justify-center items-center w-full h-4/5 lg:h-3/5 p-4 gap-2 lg-p-8 lg:gap-8 "
+    className: "grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 justify-center items-center w-full h-4/5 lg:h-3/5 p-16 lg:p-24 gap-8 lg:gap-8"
   }, /*#__PURE__*/React.createElement(InfoBox, {
     title: "Join The Discord!",
     iconUrl: "./assets/discord.svg"
@@ -44,7 +44,7 @@ function InfoBox(props) {
   }, /*#__PURE__*/React.createElement("div", {
     className: "flex flex-col lg:items-center lg:justify-around flex-grow"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "text-xl lg:text-3xl lg:text-center"
+    className: "text-2xl lg:text-3xl lg:text-center"
   }, props.title), /*#__PURE__*/React.createElement("div", {
     className: "text-base lg:text-xl underline"
   }, props.children)), /*#__PURE__*/React.createElement("div", {

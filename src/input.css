@@ -87,6 +87,4 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; */
-
-    scroll-snap-type: y mandatory;
 }
