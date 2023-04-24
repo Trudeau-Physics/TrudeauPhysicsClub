@@ -25,13 +25,13 @@ export function Contact() {
     className: "whitespace-nowrap"
   }, "Code: y53xknn")), /*#__PURE__*/React.createElement(InfoBox, {
     title: "Follow Our Instagram!",
-    iconUrl: "./assets/discord.svg"
+    iconUrl: "./assets/instagram.svg"
   }, /*#__PURE__*/React.createElement("a", {
     href: "trudeauphysics@gmail.com",
     target: "_blank"
   }, "@trudeauphysics")), /*#__PURE__*/React.createElement(InfoBox, {
     title: "Email Us!",
-    iconUrl: "./assets/discord.svg"
+    iconUrl: "./assets/email.svg"
   }, /*#__PURE__*/React.createElement("a", {
     href: "trudeauphysics@gmail.com",
     target: "_blank",

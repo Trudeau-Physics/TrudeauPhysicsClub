@@ -12,11 +12,11 @@ export function Contact() {
                     <a href='trudeauphysics@gmail.com' target="_blank" className="whitespace-nowrap">Code: y53xknn</a>
                 </InfoBox>
 
-                <InfoBox title="Follow Our Instagram!" iconUrl="./assets/discord.svg">
+                <InfoBox title="Follow Our Instagram!" iconUrl="./assets/instagram.svg">
                     <a href='trudeauphysics@gmail.com' target="_blank">@trudeauphysics</a>
                 </InfoBox>
 
-                <InfoBox title="Email Us!" iconUrl="./assets/discord.svg">
+                <InfoBox title="Email Us!" iconUrl="./assets/email.svg">
                     <a href='trudeauphysics@gmail.com' target="_blank" className="break-all text-center">trudeauphysics@gmail.com</a>
                 </InfoBox>
             </div>
