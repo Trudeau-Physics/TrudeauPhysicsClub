@@ -1,14 +1,14 @@
 export function Contact() {
   return /*#__PURE__*/React.createElement("div", {
     id: "contact",
-    className: "snap-center w-screen h-screen flex flex-col justify-around items-center bg-cyan-800",
+    className: "titlefont text-blueacc w-screen h-screen min-h-[800px] flex-col justify-around items-center bg-red-100 ",
     style: {
-      padding: '10vh'
+      paddingTop: '10vh'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    className: "font-extrabold text-center text-3xl sm:text-5xl lg:text-8xl duration-700"
+    className: "titlefont text-orangeacc font-extrabold text-center text-5xl lg:text-8xl duration-700"
   }, "Contact"), /*#__PURE__*/React.createElement("div", {
-    className: "grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 justify-center items-center w-full h-4/5 lg:h-3/5 p-4 gap-2 lg-p-8 lg:gap-8 "
+    className: "grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 justify-center items-center w-full h-4/5 lg:h-3/5 p-16 lg:p-24 gap-8 lg:gap-8"
   }, /*#__PURE__*/React.createElement(InfoBox, {
     title: "Join The Discord!",
     iconUrl: "./assets/discord.svg"
@@ -40,11 +40,11 @@ export function Contact() {
 }
 function InfoBox(props) {
   return /*#__PURE__*/React.createElement("div", {
-    className: "shadow-2xl transition ease-in-out p-4 flex lg:flex-col justify-between h-full w-full border-2 border-green-50 rounded-2xl box-border transform hover:-translate-y-1 hover:scale-105 hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-200"
+    className: "shadow-2xl transition ease-in-out p-4 flex lg:flex-col justify-between min-h-auto min-w-auto h-full w-full border-2 border-green-50 rounded-2xl box-border transform hover:-translate-y-1 hover:scale-105 hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-200"
   }, /*#__PURE__*/React.createElement("div", {
     className: "flex flex-col lg:items-center lg:justify-around flex-grow"
   }, /*#__PURE__*/React.createElement("div", {
-    className: "text-xl lg:text-3xl lg:text-center"
+    className: "text-2xl lg:text-3xl lg:text-center"
   }, props.title), /*#__PURE__*/React.createElement("div", {
     className: "text-base lg:text-xl underline"
   }, props.children)), /*#__PURE__*/React.createElement("div", {
