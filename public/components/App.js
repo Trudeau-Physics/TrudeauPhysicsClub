@@ -12,7 +12,7 @@ function App() {
     muted: true,
     loop: true
   }, /*#__PURE__*/React.createElement("source", {
-    src: "../public/assets/videos/space2.mp4",
+    src: "./assets/videos/space2.mp4",
     type: "video/mp4"
   })), /*#__PURE__*/React.createElement("div", {
     className: "caption"
