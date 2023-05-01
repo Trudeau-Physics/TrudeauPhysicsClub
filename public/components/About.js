@@ -1,12 +1,12 @@
 export function About() {
   return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
     id: "about",
-    className: "text-blueacc w-screen h-screen min-h-[800px] flex flex-col justify-center items-center bg-maincolor ",
+    className: "z-[1] text-subtextcol w-screen h-screen min-h-[800px] flex flex-col justify-center items-center  ",
     style: {
       paddingTop: '10vh'
     }
   }, /*#__PURE__*/React.createElement("div", {
-    className: "titlefont text-orangeacc text-5xl lg:text-8xl flex justify-center items-center w-full h-1/6 lg:h-1/3 duration-700 drop-shadow-lg shadow-white"
+    className: "titlefont text-titlecol text-5xl lg:text-8xl flex justify-center items-center w-full h-1/6 lg:h-1/3 duration-700 drop-shadow-lg shadow-shadowcol"
   }, "ABOUT US"), /*#__PURE__*/React.createElement("div", {
     className: "grid grid-cols-1 grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 w-full h-5/6 lg:h-2/3 p-16 lg:p-24 gap-8 lg:gap-8"
   }, /*#__PURE__*/React.createElement(InfoBox, {
@@ -17,7 +17,7 @@ export function About() {
 }
 function InfoBox(props) {
   return /*#__PURE__*/React.createElement("div", {
-    className: "shadow-2xl transition ease-in-out p-4 flex lg:flex-col justify-between h-full w-full border-2 border-green-50 rounded-2xl box-border transform hover:-translate-y-1 hover:scale-105 hover:bg-opacity-80 hover:shadow-2xl hover:text-slate-900 hover:bg-slate-400 duration-200"
+    className: "shadow-2xl transition ease-in-out p-4 flex lg:flex-col justify-between h-full w-full border-2 border-bordercol rounded-2xl box-border transform hover:-translate-y-1 hover:scale-105 hover:bg-opacity-80 hover:shadow-2xl hover:text-hovertxtcol hover:bg-hoverbgcol duration-200"
   }, /*#__PURE__*/React.createElement("div", {
     className: "flex flex-col lg:items-center lg:justify-around lg:h-2/3"
   }, /*#__PURE__*/React.createElement("div", {

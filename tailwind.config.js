@@ -43,10 +43,14 @@ module.exports = {
         pink: colors.pink,
         rose: colors.rose,
         
-        maincolor: "#1A0A2C",
-        brightblueacc: "#CCFFFF",
-        blueacc: "#1C6080",
-        orangeacc: "#C97940",
+        backgroundcol: "#3E4DFF",
+        titlecol: "#FAB2EA",
+        subtextcol: "#8AF3FF",
+        shadowcol: "#000000",
+        hoverbgcol: "#9AC6C5",
+        hovertxtcol: "#A5E6BA",
+        navtextcol: "#8AF3FF",
+        bordercol: "#8AF3FF",
       }),
       columns: {
         auto: 'auto',

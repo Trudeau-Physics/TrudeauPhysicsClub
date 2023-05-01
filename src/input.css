@@ -39,6 +39,30 @@ body::-webkit-scrollbar {
     border-radius: 10px;
 }
 
+.video-container {
+    overflow: hidden;
+    position: relative;
+    
+  }
+  
+  .video-container video {
+    z-index: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .video-container .caption {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: #dc0000;
+  }
+
 body {
     scroll-snap-type: y mandatory;
     -ms-overflow-style: none;

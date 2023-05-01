@@ -10,10 +10,19 @@ function App() {
 
     return (
         <div className="scroll-smooth snap-mandatory snap-y">
-            <NavBar />
-            <Hero />
-            <About />
-            <Contact />
+            <div className="video-container">
+                <video autoPlay muted loop>
+                    {/* ../public/assets/videos/cloud.mp4 */}
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-observatory-under-a-starry-sky-4363-large.mp4" type="video/mp4" />
+                </video>
+                <div className="caption">
+                    <NavBar />
+                    <Hero />
+                    <About />
+                    <Contact />
+                </div>
+            </div>
+
 
         </div>
     );

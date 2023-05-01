@@ -5,7 +5,18 @@ import { NavBar } from './NavBar.js';
 function App() {
   return /*#__PURE__*/React.createElement("div", {
     className: "scroll-smooth snap-mandatory snap-y"
-  }, /*#__PURE__*/React.createElement(NavBar, null), /*#__PURE__*/React.createElement(Hero, null), /*#__PURE__*/React.createElement(About, null), /*#__PURE__*/React.createElement(Contact, null));
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "video-container"
+  }, /*#__PURE__*/React.createElement("video", {
+    autoPlay: true,
+    muted: true,
+    loop: true
+  }, /*#__PURE__*/React.createElement("source", {
+    src: "https://assets.mixkit.co/videos/preview/mixkit-observatory-under-a-starry-sky-4363-large.mp4",
+    type: "video/mp4"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "caption"
+  }, /*#__PURE__*/React.createElement(NavBar, null), /*#__PURE__*/React.createElement(Hero, null), /*#__PURE__*/React.createElement(About, null), /*#__PURE__*/React.createElement(Contact, null))));
 }
 const root = ReactDOM.createRoot(document.querySelector('#app'));
 console.log(root);
