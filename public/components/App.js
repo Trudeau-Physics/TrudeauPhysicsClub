@@ -12,7 +12,7 @@ function App() {
     muted: true,
     loop: true
   }, /*#__PURE__*/React.createElement("source", {
-    src: "https://assets.mixkit.co/videos/preview/mixkit-observatory-under-a-starry-sky-4363-large.mp4",
+    src: "../public/assets/videos/space2.mp4",
     type: "video/mp4"
   })), /*#__PURE__*/React.createElement("div", {
     className: "caption"

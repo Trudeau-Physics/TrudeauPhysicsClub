@@ -44,6 +44,7 @@ module.exports = {
         rose: colors.rose,
         
         backgroundcol: "#3E4DFF",
+        subbgcol: "#8AB6C5",
         titlecol: "#FAB2EA",
         subtextcol: "#8AF3FF",
         shadowcol: "#000000",
