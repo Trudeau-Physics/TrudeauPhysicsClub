@@ -2,7 +2,7 @@ import { Hero } from './Hero.js';
 import { Contact } from './Contact.js';
 import { About } from './About.js';
 import { NavBar } from './NavBar.js';
-
+import { Team } from './Team.js';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
                     <NavBar />
                     <Hero />
                     <About />
+                    <Team />
                     <Contact />
                 </div>
             </div>

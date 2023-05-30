@@ -589,6 +589,10 @@ video {
   width: 66.666667%;
 }
 
+.w-5\/6 {
+  width: 83.333333%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -625,6 +629,10 @@ video {
   grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -647,6 +655,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .overflow-y-auto {
@@ -682,18 +694,17 @@ video {
 }
 
 .border-bordercol {
-  --tw-border-opacity: 1;
-  border-color: rgb(138 243 255 / var(--tw-border-opacity));
+  border-color: #F1F4FFFF;
 }
 
 .bg-hoverbgcol {
   --tw-bg-opacity: 1;
-  background-color: rgb(154 198 197 / var(--tw-bg-opacity));
+  background-color: rgb(255 236 209 / var(--tw-bg-opacity));
 }
 
 .bg-subbgcol {
   --tw-bg-opacity: 1;
-  background-color: rgb(138 182 197 / var(--tw-bg-opacity));
+  background-color: rgb(54 69 79 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-40 {
@@ -730,12 +741,16 @@ video {
   padding: 4rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-2 {
@@ -755,6 +770,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-2xl {
@@ -791,18 +810,17 @@ video {
 }
 
 .text-navtextcol {
-  --tw-text-opacity: 1;
-  color: rgb(138 243 255 / var(--tw-text-opacity));
+  color: #FCF6F5FF;
 }
 
 .text-subtextcol {
   --tw-text-opacity: 1;
-  color: rgb(138 243 255 / var(--tw-text-opacity));
+  color: rgb(232 232 232 / var(--tw-text-opacity));
 }
 
 .text-titlecol {
   --tw-text-opacity: 1;
-  color: rgb(250 178 234 / var(--tw-text-opacity));
+  color: rgb(221 219 203 / var(--tw-text-opacity));
 }
 
 .text-transparent {
@@ -962,7 +980,7 @@ html {
 
 .hover\:bg-hoverbgcol:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(154 198 197 / var(--tw-bg-opacity));
+  background-color: rgb(255 236 209 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1017,7 +1035,7 @@ html {
 
   .md\:hover\:bg-hoverbgcol:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(154 198 197 / var(--tw-bg-opacity));
+    background-color: rgb(255 236 209 / var(--tw-bg-opacity));
   }
 
   .md\:hover\:bg-opacity-80:hover {
@@ -1025,8 +1043,7 @@ html {
   }
 
   .md\:hover\:text-hovertxtcol:hover {
-    --tw-text-opacity: 1;
-    color: rgb(165 230 186 / var(--tw-text-opacity));
+    color: #2D2926FF;
   }
 
   .md\:hover\:shadow-2xl:hover {
@@ -1061,6 +1078,14 @@ html {
 
   .lg\:h-3\/5 {
     height: 60%;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:w-1\/4 {
+    width: 25%;
   }
 
   .lg\:w-24 {
@@ -1105,6 +1130,22 @@ html {
 
   .lg\:p-24 {
     padding: 6rem;
+  }
+
+  .lg\:pb-12 {
+    padding-bottom: 3rem;
+  }
+
+  .lg\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .lg\:pr-5 {
+    padding-right: 1.25rem;
+  }
+
+  .lg\:pt-12 {
+    padding-top: 3rem;
   }
 
   .lg\:text-center {

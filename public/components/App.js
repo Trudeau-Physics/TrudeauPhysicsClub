@@ -2,6 +2,7 @@ import { Hero } from './Hero.js';
 import { Contact } from './Contact.js';
 import { About } from './About.js';
 import { NavBar } from './NavBar.js';
+import { Team } from './Team.js';
 function App() {
   return /*#__PURE__*/React.createElement("div", {
     className: "scroll-smooth snap-mandatory snap-y"
@@ -16,7 +17,7 @@ function App() {
     type: "video/mp4"
   })), /*#__PURE__*/React.createElement("div", {
     className: "caption"
-  }, /*#__PURE__*/React.createElement(NavBar, null), /*#__PURE__*/React.createElement(Hero, null), /*#__PURE__*/React.createElement(About, null), /*#__PURE__*/React.createElement(Contact, null))));
+  }, /*#__PURE__*/React.createElement(NavBar, null), /*#__PURE__*/React.createElement(Hero, null), /*#__PURE__*/React.createElement(About, null), /*#__PURE__*/React.createElement(Team, null), /*#__PURE__*/React.createElement(Contact, null))));
 }
 const root = ReactDOM.createRoot(document.querySelector('#app'));
 console.log(root);
