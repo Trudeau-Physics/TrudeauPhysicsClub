@@ -13,10 +13,10 @@ export function NavBar(props) {
     }
   }, /*#__PURE__*/React.createElement("div", {
     className: "flex justify-between items-center px-2 md:w-1/3 text-subtextcol duration-700"
-  }, /*#__PURE__*/React.createElement("a", {
-    className: "",
-    href: "/"
-  }, "LOGO")), /*#__PURE__*/React.createElement("ul", {
+  }, /*#__PURE__*/React.createElement("img", {
+    className: "rounded-3xl h-full",
+    src: './assets/logo.svg'
+  })), /*#__PURE__*/React.createElement("ul", {
     className: "text-navtextcol flex justify-around items-center py-2 mt-0 h-full w-2/3 rounded-2xl bg-hoverbgcol bg-opacity-40 "
   }, /*#__PURE__*/React.createElement("li", {
     onClick: () => handleClick("#home"),

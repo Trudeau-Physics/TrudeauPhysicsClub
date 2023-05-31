@@ -26,15 +26,19 @@ body::-webkit-scrollbar {
 .overflow-y-auto::-webkit-scrollbar {
     width: 5px;
 }
-
-/* Track */
-.overflow-y-auto::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 2px grey;
-    border-radius: 10px;
+.overflow-x-auto::-webkit-scrollbar {
+    height: 5px;
 }
 
+/* Track */
+.overflow-y-auto::-webkit-scrollbar-track, .overflow-x-auto::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 /* Handle */
-.overflow-y-auto::-webkit-scrollbar-thumb {
+.overflow-y-auto::-webkit-scrollbar-thumb, .overflow-x-auto::-webkit-scrollbar-thumb {
     background: #abb0b4;
     border-radius: 10px;
 }

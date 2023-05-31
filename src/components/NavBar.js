@@ -11,9 +11,7 @@ export function NavBar(props) {
     return (
         <div className="z-[2] fixed top-0 w-full flex justify-around md:justify-between px-2 md:px-24 py-2 duration-700 " style={{height: '10vh'}}>
             <div className="flex justify-between items-center px-2 md:w-1/3 text-subtextcol duration-700">
-                <a className="" href="/">
-                    {/* <img className='rounded-3xl' src={'../../assets/logo.png'} /> */}LOGO
-                </a>
+                    <img className='rounded-3xl h-full' src={'./assets/logo.svg'} />
             </div>
             <ul className="text-navtextcol flex justify-around items-center py-2 mt-0 h-full w-2/3 rounded-2xl bg-hoverbgcol bg-opacity-40 ">
 
